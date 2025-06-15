@@ -2,7 +2,7 @@ import 'package:http/http.dart' show Client;
 import 'package:weather_app/ui/weather_data.dart';
 
 class WeatherApi {
-  static const _apiKey = 'e8830287624f31161aa735700fe5ea10'; // ADD YOUR API KEY HERE
+  static const _apiKey = ''; // ADD YOUR API KEY HERE
   static const _baseUrl = 'https://api.openweathermap.org/data/2.5';
   final Client client;
 
